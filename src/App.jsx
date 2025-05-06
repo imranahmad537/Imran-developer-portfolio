@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import Hero from './Pages/Hero'
+import Bento from './Pages/Bento'  
+import Logos from './Pages/Logos'
+import Subscribe from './Pages/Subscribe'
 import './App.css'
 
 
@@ -9,6 +12,12 @@ function App() {
   return (
     <>
     <Hero/>
+    <hr />
+    <Bento/>
+    <hr />
+    <Logos/>
+    <hr />
+    <Subscribe/>
     </>
   )
 }
