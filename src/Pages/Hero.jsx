@@ -8,6 +8,7 @@ import {
   FaArrowCircleRight,
   FaArrowRight,
   FaArrowsAltH,
+  FaFacebook,
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
@@ -136,18 +137,8 @@ export default function Example() {
               className="relative left-[calc(50%-11rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
           </div>
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-16">
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="relative rounded-full px-5 bg-black py-2 text-sm/6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                {/* <div class="absolute inset-0 duration-1000 opacity-50 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"></div> */}
-                Let's create something awesome together!{" "}
-                <a href="#" className="font-semibold ">
-                  <span aria-hidden="true" className="absolute inset-0" />
-                  <FaArrowRight className="inline-block w-5 h-5 ml-2" />
-                  <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
-                </a>
-              </div>
-            </div>
+          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-26">
+            <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
             <div className="text-center">
               <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
                 Building Digital Experience
@@ -156,23 +147,20 @@ export default function Example() {
              Empowering businesses with cutting-edge web solutions for lasting
              impact
            </p> */}
-              <div className=" flex items-center justify-center mt-10 gap-8">
-                <div class="relative ">
-                  <FaLinkedin className="w-8 h-8 text-gray-600" />
-                  {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
-                </div>
-                <div class="relative ">
-                  <FaGithub className="w-7 h-7 text-gray-600" />
-                  {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
-                </div>
-                <div class="relative ">
-                  <SiFiverr className="w-8 h-8  text-gray-600" />
-                  {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
-                </div>
-              </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                
+                <div className="relative rounded-full px-5 bg-black py-1 text-sm/6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                  {/* <div class="absolute inset-0 duration-1000 opacity-50 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"></div> */}
+                  <span className="inline sm:hidden">Let's create!</span>
+                  <span className="hidden sm:inline">
+                    Let's create something awesome together!
+                  </span>
+                  <a href="#" className="font-semibold  ">
+                    <span aria-hidden="true" className="absolute inset-0" />
+                    <SiFiverr className="inline-block rounded-3xl  ring-gray-900/10 bg-white text-black  lg:w-15 lg:h-10 ml-2 sm:w-15 sm:h-8 sm:text-base" />
+                    <span class="top-0 ml-2 absolute  w-3.5 h-3.5 animate-ping bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+                  </a>
+                </div>
 
                 {/* <a href="#" className="text-sm/6 font-semibold text-gray-900">
              <h1>Hire Me</h1> <span aria-hidden="true">→</span>
@@ -184,7 +172,20 @@ export default function Example() {
                <h1></h1>
              </a> */}
               </div>
-              
+              <div className=" flex items-center justify-center mt-10 gap-8">
+                <div class="relative ">
+                  <FaLinkedin className="w-18 h-18 text-gray-600 sm:w-3 sm:h-3" />
+                  {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
+                </div>
+                <div class="relative ">
+                  <FaGithub className="w-7 h-7 text-gray-600" />
+                  {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
+                </div>
+                <div class="relative ">
+                  <FaFacebook className="w-8 h-8  text-gray-600" />
+                  {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
+                </div>
+              </div>
             </div>
           </div>
           <div
