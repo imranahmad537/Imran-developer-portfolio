@@ -148,16 +148,16 @@ export default function Example() {
              impact
            </p> */}
 
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <div className="relative rounded-full px-5 bg-black py-1 text-sm/6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              <div className="mt-15 flex items-center justify-center gap-x-6">
+                <div className="relative rounded-full px-5 bg-black py-1 text-sm/6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20 ">
                   {/* <div class="absolute inset-0 duration-1000 opacity-50 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"></div> */}
                   <span className="inline sm:hidden">Let's create!</span>
                   <span className="hidden sm:inline">
                     Let's create something awesome together!
                   </span>
-                  <a href="#" className="font-semibold  ">
-                    <span aria-hidden="true" className="absolute inset-0" />
-                    <SiFiverr className="inline-block rounded-3xl  ring-gray-900/10 bg-white text-black  lg:w-15 lg:h-10 ml-2 sm:w-15 sm:h-8 sm:text-base" />
+                  <a href="#" className="font-semibold ">
+                    <span aria-hidden="true" className="absolute inset-0 " />
+                    <SiFiverr className="mb-0.5 inline-block w-10 h-5 rounded-2xl lg:rounded-3xl lg:w-25  lg:h-10  ring-gray-900/10  bg-white text-black ml-2  " />
                     <span class="top-0 ml-2 absolute  w-3.5 h-3.5 animate-ping bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
                   </a>
                 </div>
@@ -172,17 +172,17 @@ export default function Example() {
                <h1></h1>
              </a> */}
               </div>
-              <div className=" flex items-center justify-center mt-10 gap-8">
+              <div className=" flex items-center justify-center mt-7 gap-8">
                 <div class="relative ">
-                  <FaLinkedin className="w-18 h-18 text-gray-600 sm:w-3 sm:h-3" />
+                  <FaLinkedin className="lg:w-7.5 lg:h-7.5 text-gray-600 sm:w-5 sm:h-5" />
                   {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
                 </div>
                 <div class="relative ">
-                  <FaGithub className="w-7 h-7 text-gray-600" />
+                  <FaGithub className="lg:w-7 lg:h-7 text-gray-600 sm:w-5 sm:h-5" />
                   {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
                 </div>
                 <div class="relative ">
-                  <FaFacebook className="w-8 h-8  text-gray-600" />
+                  <FaFacebook className="lg:w-7 lg:h-7 text-gray-600 sm:w-5 sm:h-5" />
                   {/* <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span> */}
                 </div>
               </div>
