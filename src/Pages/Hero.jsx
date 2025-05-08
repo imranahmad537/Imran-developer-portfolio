@@ -136,7 +136,7 @@ export default function Example() {
               className="relative left-[calc(50%-11rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
           </div>
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-26">
+          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-16">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-5 bg-black py-2 text-sm/6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 {/* <div class="absolute inset-0 duration-1000 opacity-50 transitiona-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"></div> */}
@@ -172,15 +172,7 @@ export default function Example() {
               </div>
 
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <div className="relative rounded-full px-5  py-2 text-sm/6 text-black ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Let's create something awesome together!{" "}
-                  <a href="#" className="font-semibold ">
-                    <span aria-hidden="true" className="absolute inset-0" />
-                    
-                    <SiFiverr className="inline-block ml-3 ring-1 rounded-4xl w-20 h-13 pb-1 " />
-                    <span class="top-0 ml-3 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
-                  </a>
-                </div>
+                
 
                 {/* <a href="#" className="text-sm/6 font-semibold text-gray-900">
              <h1>Hire Me</h1> <span aria-hidden="true">→</span>
@@ -192,6 +184,7 @@ export default function Example() {
                <h1></h1>
              </a> */}
               </div>
+              
             </div>
           </div>
           <div
