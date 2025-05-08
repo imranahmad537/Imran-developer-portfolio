@@ -5,6 +5,7 @@ import Logos from './Pages/Logos'
 // import Grid  from  './Pages/Grid'
 import Subscribe from './Pages/Subscribe'
 import './App.css'
+import Project from './Pages/Project'
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
     <Logos/>
     <hr />
     <Subscribe/>
+    <br />
+    <Project/>
     {/* <Grid/> */}
     </>
   )
