@@ -13,7 +13,7 @@ export default function Example() {
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                   <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">
-                    Mobile friendly
+                    About Us
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
                     Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
@@ -26,7 +26,7 @@ export default function Example() {
                       src="https://tailwindcss.com/plus-assets/img/component-images/bento-03-mobile-friendly.png"
                       alt=""
                     /> */}
-                    Services
+                    Experience
                   </div>
                 </div>
               </div>
