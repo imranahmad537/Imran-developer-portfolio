@@ -7,7 +7,7 @@ import { Heart, MessageCircle, Share2 } from "react-feather";
 const Project = () => {
   return (
     <>
-    <main className="flex justify-center items-center h-screen bg-black gap-5 p-4">
+    {/* <main className="flex justify-center items-center h-screen bg-black gap-5 p-4">
     <Cards imgSrc={Capture}>
         <h3 className="text-xl font-bold mb-2">Project 1</h3>
         <p>Lorem ipsum dolor sit.</p>
@@ -52,7 +52,7 @@ const Project = () => {
       </Cards>
      
      
-    </main>
+    </main> */}
      
     </>
   );
