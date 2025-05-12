@@ -8,6 +8,7 @@ import './App.css'
 // import Project from './Pages/Project'
 import Project1 from './Pages/Project1'
 import About from './Pages/About'
+import Subscribe1 from './Pages/Subscribe1'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <hr />
     <Subscribe/>
     <br />
+    <Subscribe1/>
     {/* <Project/> */}
     <Project1/>
     {/* <Grid/> */}
