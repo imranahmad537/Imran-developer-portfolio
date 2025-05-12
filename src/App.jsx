@@ -7,6 +7,7 @@ import Subscribe from './Pages/Subscribe'
 import './App.css'
 // import Project from './Pages/Project'
 import Project1 from './Pages/Project1'
+import About from './Pages/About'
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     <>
     <Hero/>
     <hr />
-    <Bento/>
+    {/* <Bento/> */}
+    <About/>
     <hr />
     <Logos/>
     <hr />
