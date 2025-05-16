@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  base: process.env.VITE_APP_PATH || '/Imran-developer-portfolio'
   
 })
