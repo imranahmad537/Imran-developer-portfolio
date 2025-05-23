@@ -72,8 +72,7 @@ function PauseOnHover() {
           </div>
         ))}
       </Slider>
-     
-  
+
 
     </div>
   );
