@@ -24,19 +24,19 @@ function PauseOnHover() {
     },
     {
       title: "Project 2",
-      img: "/Capture.PNG",
+      img: "/profile1.png",
       description: "This is a description of project 1",
       tags: ["#React"],
     },
     {
         title: "Project 3",
-        img: "/Capture.PNG",
+        img: "/profile1.png",
         description: "This is a description of project 1",
         tags: ["#React"],
       },
       {
         title: "Project 4",
-        img: "/Capture.PNG",
+        img: "/profile.png",
         description: "This is a description of project 1",
         tags: ["#React"],
       },

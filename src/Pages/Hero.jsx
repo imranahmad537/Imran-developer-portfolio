@@ -27,13 +27,14 @@ export default function Example() {
 
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-gray-900">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav
             aria-label="Global"
-            className="flex items-center justify-between p-6 lg:px-8"
+            className="flex items-center justify-between p-6 lg:px-8 "
+          
           >
-            <div className="flex lg:flex-1">
+            <div className="flex lg:flex-1 ">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
@@ -43,7 +44,7 @@ export default function Example() {
                 />
               </a>
             </div>
-            <div className="flex lg:hidden">
+            <div className="flex lg:hidden ">
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(true)}
@@ -53,7 +54,7 @@ export default function Example() {
                 <Bars3Icon aria-hidden="true" className="size-6" />
               </button>
             </div>
-            <div className="hidden lg:flex lg:gap-x-12">
+            <div className="hidden lg:flex lg:gap-x-12 backdrop-blur-sm bg-gray-200 border border-amber-300 px-10 py-3 rounded-4xl">
               {navigation.map((item) => (
                 <a
                   key={item.name}
@@ -140,9 +141,9 @@ export default function Example() {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-26">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
             <div className="text-center">
-              <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
+              <span className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl ">
                 Building Digital Experience
-              </h1>
+              </span>
               {/* <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
              Empowering businesses with cutting-edge web solutions for lasting
              impact

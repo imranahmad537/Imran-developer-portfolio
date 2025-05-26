@@ -19,9 +19,9 @@ function App() {
     <Hero/>
     <hr />
     {/* <Bento/> */}
-    <About/>
+    {/* <About/> */}
     <hr />
-    <Logos/>
+    {/* <Logos/> */}
     <hr />
     <Subscribe/>
     <br />
