@@ -11,50 +11,57 @@ function PauseOnHover() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
   };
 
   const CardData = [
     {
       title: "Project 1",
-      img: "/Capture.PNG",
+      // img: "/Capture.PNG",
+       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0Ez4tSCoI3bYCu-XvswB1mgC1ZlljUB8rw&s",
       description: "This is a description of project 1",
       tags: ["#React"],
     },
     {
       title: "Project 2",
-      img: "/profile1.png",
+      // img: "/Capture.PNG",
+       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0Ez4tSCoI3bYCu-XvswB1mgC1ZlljUB8rw&s",
       description: "This is a description of project 1",
       tags: ["#React"],
     },
     {
         title: "Project 3",
-        img: "/profile1.png",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0Ez4tSCoI3bYCu-XvswB1mgC1ZlljUB8rw&s",
         description: "This is a description of project 1",
         tags: ["#React"],
       },
       {
         title: "Project 4",
-        img: "/profile.png",
+        // img: "/Capture.PNG",
+         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0Ez4tSCoI3bYCu-XvswB1mgC1ZlljUB8rw&s",
         description: "This is a description of project 1",
         tags: ["#React"],
       },
   ];
   return (
-    <div className="slider-container w-full max-w-6xl mx-auto py-8 px-8 rounded-2xl  ">
+    <div className="slider-container group w-full max-w-6xl mx-auto py-8 rounded-2xl">
         {/* <h1 className=" text-4xl font-bold my-10">See our Work</h1> */}
-        <p className="mx-auto my-12 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl ">
+        <p className="mx-auto my-12 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl">
            See our Work
           </p>
-      <Slider {...settings}>
+      <Slider {...settings} >
         {CardData.map((card, index) => (
-          <div
+          <div className="px-0.5">
+            <div
             key={index}
-            className="max-w-sm rounded overflow-hidden shadow-lg "
+            className=" max-w-sm rounded-3xl overflow-hidden shadow-lg"
             style={{ boxShadow: "inset 0 -55px 25px rgba(0,0,0,0.1)" }}
           >
-            <img className="w-full" src={card.img} alt="Sunset in the mountains" />
+            <img className="w-full h-90" src={card.img} alt="Sunset in the mountains" />
+             {/* <div className="absolute inset-0 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-transform duration-150 flex items-center justify-center top-100">
+    <p className="text-white text-lg font-semibold">Your Hover Text</p>
+  </div> */}
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2">{card.title}</div>
               <p className="text-gray-700 text-base">{card.description}</p>
@@ -69,6 +76,7 @@ function PauseOnHover() {
                 </span>
               ))}
             </div>
+          </div>
           </div>
         ))}
       </Slider>

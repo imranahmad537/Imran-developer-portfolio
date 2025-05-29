@@ -27,7 +27,7 @@ export default function Example() {
 
   return (
     <>
-      <div className="bg-gray-900">
+      <div className="bg-white">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav
             aria-label="Global"
@@ -141,7 +141,7 @@ export default function Example() {
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-26">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
             <div className="text-center">
-              <span className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl ">
+              <span className="text-5xl font-semibold tracking-tight text-balance text-black sm:text-7xl ">
                 Building Digital Experience
               </span>
               {/* <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
@@ -159,7 +159,7 @@ export default function Example() {
                   <a href="#" className="font-semibold ">
                     <span aria-hidden="true" className="absolute inset-0 " />
                     <SiFiverr className="mb-0.5 inline-block w-10 h-5 rounded-2xl lg:rounded-3xl lg:w-25  lg:h-10  ring-gray-900/10  bg-white text-black ml-2  " />
-                    <span class="top-0 ml-2 absolute  w-3.5 h-3.5 animate-ping bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+                    <span className="top-0 ml-2 absolute  w-3.5 h-3.5 animate-ping bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
                   </a>
                 </div>
 

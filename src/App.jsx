@@ -9,6 +9,7 @@ import './App.css'
 import Project1 from './Pages/Project1'
 import About from './Pages/About'
 import Subscribe1 from './Pages/Subscribe1'
+import Achievements from './Pages/Achievements'
 
 
 function App() {
@@ -18,14 +19,14 @@ function App() {
     <>
     <Hero/>
     <hr />
-    {/* <Bento/> */}
-    {/* <About/> */}
-    <hr />
-    {/* <Logos/> */}
-    <hr />
+  
+      <Subscribe1/>
+      <br />
+      <br />
+     
     <Subscribe/>
     <br />
-    <Subscribe1/>
+    <Achievements/>
     {/* <Project/> */}
     <Project1/>
     {/* <Grid/> */}

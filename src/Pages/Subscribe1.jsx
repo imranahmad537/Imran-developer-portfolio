@@ -18,8 +18,8 @@ export default function Subscribe1() {
         &nbsp;&nbsp;&nbsp;Ahmad
       </div>
 
-      <div className=" ">
-        <img src="/profile1.png" alt="" className="w-100 h-100" />
+      <div>
+        <img src="/Myprofile.png" alt="" className="w-100 h-100" />
       </div>
       <div
         style={{
@@ -32,12 +32,10 @@ export default function Subscribe1() {
         &gt;
       </div>
       <div className="name absolute top-25 text-white ml-160  mr-10">
-       <h1 className="text-2xl font-bold">Certified MERN Stack Developer</h1>
-       <p className="">Helping Small &amp; Medium Bussinesses Worldwide </p>
+        <h1 className="text-2xl font-bold">Certified MERN Stack Developer</h1>
+        <p className="">Helping Small &amp; Medium Bussinesses Worldwide </p>
       </div>
-      
 
-    
       <div
         aria-hidden="true"
         className="absolute top-0 left-1/2 -z-10 -translate-x-1/2 blur-3xl xl:-top-6"
