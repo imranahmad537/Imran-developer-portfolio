@@ -10,6 +10,7 @@ import Project1 from './Pages/Project1'
 import About from './Pages/About'
 import Subscribe1 from './Pages/Subscribe1'
 import Achievements from './Pages/Achievements'
+import Maintenance from './Pages/Maintenance'
 
 
 function App() {
@@ -17,19 +18,20 @@ function App() {
 
   return (
     <>
-    <Hero/>
+    {/* <Hero/> */}
     <hr />
   
-      <Subscribe1/>
+      {/* <Subscribe1/> */}
       <br />
       <br />
      
-    <Subscribe/>
+    {/* <Subscribe/> */}
     <br />
-    <Achievements/>
+    {/* <Achievements/> */}
     {/* <Project/> */}
-    <Project1/>
+    {/* <Project1/> */}
     {/* <Grid/> */}
+    <Maintenance/>
     </>
   )
 }
